@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    border-bottom: 1px solid #111111;
+    height: 72px;
+}
+
+.nav-content, .nav-column1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-column2, .home, .service-dropdown, .login {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.service-dropdown {
+    gap: 4px;
+}
+
+.service-dropdown img:hover {
+    cursor: pointer;
+}
+
+.home a, .service-dropdown a {
+    color: black;
+}
+
+.login {
+    gap: 16px;
+}
+
+.login-link, .register {
+    padding: 8px 20px;
+    border: 1px solid black;
+    gap: 8px;
+}
+
+.login-link {
+    color: black;
+}
+
+.register {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 72px 120px;
+    gap: 80px;
+}
+
+.header-content, .S2-content, .S3-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-column, .content1, .content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content1 h1 {
+    font-family: 'Roboto';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content1 p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.header-button {
+    display: flex;
+    padding-top: 16px;
+    gap: 20px;
+}
+
+.header-CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 208px;
+    background-color: black;
+    color: white;
+}
+
+.header-button p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.S1 {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 200px;
+    gap: 80px;
+}
+
+.S1 h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.row {
+    display: flex;
+    gap: 48px;
+}
+
+.S1-column, .S1-column-content, .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+.title p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.S2, .S3, .S4, .S5 {
+    display: flex;
+    padding: 72px 120px;
+    gap: 80px;
+}
+
+.title2, .title3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title2 p, .title3 p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.title-content, .title-content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title-content h1, .title-content2 h1 {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.title-content p, .title-content2 p, li {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.actions {
+    display: flex;
+    padding-top: 16px;
+    gap: 24px;
+}
+
+.S2-actions-button, .S3-actions-button {
+    display: flex;
+    padding: 12px 24px;
+    border: 1px solid black;
+    gap: 8px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+}
+
+.S3-content {
+    flex-direction: row-reverse;
+}
+
+.S4-title, .S5-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.S4-title h1, .S5-title h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.S4-title p, .S5-title p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.S4-content {
+    display: flex;
+    gap: 32px;
+}
+
+.S4-column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}
+
+.S4-column p {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.avatar-content h4 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.avatar-content p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.S5-content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.accordion-item {
+    height: 73px;
+}
+
+.accordion-item, .divider {
+    border-top: 1px solid black;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 12px;
+}
+
+.box p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.box img:hover {
+    cursor: pointer;
+}
+
+ 
