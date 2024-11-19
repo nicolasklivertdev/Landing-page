@@ -245,6 +245,7 @@ ul {
 .S4-title, .S5-title {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
 }
 
@@ -375,6 +376,7 @@ ul {
 .actions2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 16px;
     gap: 16px;
 }
@@ -382,8 +384,7 @@ ul {
 .S6-actions2-button {
     display: flex;
     flex-direction: column;
-    margin-right: 450px;
-    margin-left: 450px;
+    align-items: center;
     padding: 12px 24px;
     border: 1px solid black;
     gap: 8px;
@@ -391,6 +392,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    width: 234px;
     background-color: black;
     color: white;
 }
@@ -531,4 +533,171 @@ input {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+@media screen and (max-width: 1254px) {
+    .footer-content {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .links {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1213px) {
+    input {
+        width: 100%;
+    }
+
+    nav {
+        padding: 0 60px;
+    }
+
+    header, .S1, .S2, .S3, .S4, .S5, .S6, footer {
+        padding: 72px 60px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    nav {
+        padding: 0 30px;
+    }
+
+    header, .S1, .S2, .S3, .S4, .S5, .S6, footer {
+        padding: 72px 30px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .content1 h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    
+    .content1 p, .box p, .content4 p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .S1 h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .title h3 {
+        font-size: 20px;
+        line-height: 23.3px;
+    }
+    
+    .title p, .title-content p, .title-content2 p, li, .S4-title p, .S5-title p, .S6-actions2-button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .title-content h1, .title-content2 h1, .S4-title h1, .S5-title h1, .content4 h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    .avatar-content h4, .avatar-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .header-content, .S2-content, .S3-content {
+        gap: 40px;
+    }
+
+    .placeholder-img {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 933px) {
+    .links {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+    .subscrever {
+        justify-content: center;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    .header-content, .S2-content, .S3-content {
+        flex-direction: column;
+    }
+
+    .content1 h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .header-button {
+        align-items: center;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .S4 {
+        justify-content: center;
+    }
+
+    .S4-content {
+        flex-direction: column;
+        align-items: center;
+        width: 378.67px;
+    }
+
+    .links, .credits-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .credits-row {
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .home {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    .credits-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .social-links {
+        margin-bottom: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    header, .header-content, .header-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header, .S1, .S2, .S3, .S4, .S5, .S6, footer {
+        padding: 72px 30px;
+    }
+
+    .S4-column, .S4-title p {
+        width: 82%;
+    }
+
 }
